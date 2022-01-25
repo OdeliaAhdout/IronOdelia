@@ -30,6 +30,7 @@ LIMIT 1;
 SELECT account_id, amount FROM loan
 ORDER BY account_id
 LIMIT 5;
+-- [order by 1 instead of account_id] 
 
 -- Q7: What are the account_ids with the lowest loan amount that have a loan duration of 60 in the loan table?
 SELECT account_id FROM loan
