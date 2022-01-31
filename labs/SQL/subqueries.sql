@@ -23,7 +23,6 @@ SELECT title FROM film
 where film_id in (SELECT film_id FROM film_category
 where category_id = (SELECT category_id FROM category where `name` = "Family"));
 
-
 -- Q5a Get name and email from customers from Canada [using subqueries]. 
 
 select first_name, last_name, email from customer
